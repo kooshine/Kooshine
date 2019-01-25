@@ -1,0 +1,67 @@
+body {
+    background-color:rgb(241, 241, 233);
+}
+h1 {
+    position: fixed;
+    left: 172px;
+    top:8px
+}
+h2 {
+    position: fixed;
+    left: 170px;
+    top: 60px;
+    font-size: 18px;
+}
+
+#nav li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    /*left: 80px;*/
+}
+
+#nav li a {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    font-size:16px;
+    padding: 4px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+li a:hover {
+    background-color:rgb(127, 162, 228);
+}
+li .lists {
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color:rgb(233, 218, 218);
+}
+li:hover .lists {
+    display:block;
+}
+
+#book {
+    background-color:white;
+    position: fixed;
+    left: 170px;
+    top:182px;
+    width: 660px;
+    padding: 100px;
+    margin:10px;
+}
+#note {
+    background-color:white;
+    position: fixed;
+    left: 170px;
+    top:430px;
+    width: 660px;
+    padding: 100px;
+    margin:10px;
+}
