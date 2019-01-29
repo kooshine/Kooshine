@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+#header {
+    margin-left:60px;
+    margin-top: 24px;
+    color: rgb(83, 83, 158);  
+    font-family: "FZYaoti";
+    font-size:"28px"
+}
+*{
+    padding: 0;
+    margin:0;
+    list-style:none;
+}
+#nav {
+    position: fixed;
+    top: 115px;
+    width: 100%;
+    list-style-type:none;
+    text-align: center;
+    background-color:rgba(147, 209, 224, 0.6);
+}
+#main_content{
+    position: fixed;
+    z-index: -100;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+#footer{
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    font-family: 'Gill Sans MT';
+    font-size: 14px;
+    color:rgb(80, 80, 163);
+}
